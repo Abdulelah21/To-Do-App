@@ -8,7 +8,7 @@ class App extends React.Component{
       <header>
         <form id='to-do-form'>
         <input type='text' placeholder='Enter text'/>
-        <button type='submit'>Add</button>
+        <button type='submit'>Add new</button>
         </form>
       </header>
     );
