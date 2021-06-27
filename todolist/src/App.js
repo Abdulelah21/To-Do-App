@@ -5,12 +5,14 @@ import './App.css';
 class App extends React.Component{
   render(){
     return(
-      <header>
+      <div className='App'>
+        <header>
         <form id='to-do-form'>
         <input type='text' placeholder='Enter text'/>
         <button type='submit'>Add new</button>
         </form>
       </header>
+      </div>
     );
   }
 }
