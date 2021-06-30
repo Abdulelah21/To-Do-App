@@ -21,6 +21,7 @@ function ListItems(props) {
                         onClick={() => props.deleteItem(item.key)
                         } />
                 </span >
+                <input type='checkbox'/>
             </p>
 
         </div>
