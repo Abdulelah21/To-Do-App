@@ -38,6 +38,7 @@ class App extends React.Component{
      this.setState({
        items:newItems,
        currentItem:{
+         type:'ADD_TODO',
          text:'',
          key:''
        }
